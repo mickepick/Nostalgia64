@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "monkeyc",
+			"device": "fenix7",
+			"simulatorBuild": true,
+			"folderPath": "/home/mickepick/n64/Nostalgia64",
+			"problemMatcher": [],
+			"label": "monkeyc: fenix7"
+		}
+	]
+}

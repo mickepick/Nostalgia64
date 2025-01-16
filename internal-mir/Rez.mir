@@ -1,0 +1,107 @@
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var c64fnt as ResourceId;
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var c64num as ResourceId;
+    }
+    [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 17; ]
+    module Layouts {
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 17; ]
+        <init> {
+        }
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 18; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_mickepick_n64_Nostalgia64_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_start:
+[ "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" 19 12 ]
+            [ "_home_mickepick_n64_Nostalgia64_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_start" "_home_mickepick_n64_Nostalgia64_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "TimeLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            %tmp.13 = getm $.Toybox.Graphics;
+            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            %tmp.19 = 240;
+            %tmp.20 = 0.5;
+            %tmp.21 = mul %tmp.19 %tmp.20;
+            %tmp.22 = dup %tmp.16;
+            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+            %tmp.25 = const :locY;
+            %tmp.26 = 240;
+            %tmp.27 = lgetv %dc;
+            %tmp.28 = getv function %tmp.27 :getFontHeight;
+            %tmp.29 = getm $.Toybox.Graphics;
+            %tmp.30 = getv %tmp.29 :FONT_LARGE;
+            %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+            %tmp.32 = sub %tmp.26 %tmp.31;
+            %tmp.33 = 0.5;
+            %tmp.34 = mul %tmp.32 %tmp.33;
+            %tmp.35 = dup %tmp.23;
+            %tmp.36 = aputv %tmp.35 %tmp.25 %tmp.34;
+            %tmp.38 = const :justification;
+            %tmp.39 = getm $.Toybox.Graphics;
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            %tmp.45 = getm $.Toybox.Graphics;
+            %tmp.46 = getv %tmp.45 :FONT_LARGE;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.1 = newc %tmp.4 (%tmp.48);
+            lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
+[ "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" 21 12 ]
+            %tmp.49 = newa 1 Array<WatchUi.Drawable>;
+            %tmp.51 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            %tmp.52 = dup %tmp.49;
+            %tmp.53 = aputv %tmp.52 0 %tmp.51;
+            ret %tmp.53;
+_home_mickepick_n64_Nostalgia64_gen_006_B3076_00_source_Rez_mcgen_18_73_22_8_stop:
+        }
+    }
+    [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 25; ]
+    module Strings {
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 25; ]
+        <init> {
+        }
+        [ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+}
+[ @file = "/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

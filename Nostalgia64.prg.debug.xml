@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/mickepick/n64/Nostalgia64/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="1" lineNum="5" parent="globals/Nostalgia64App" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="2" lineNum="26" parent="globals" pc="268435476" symbol="getApp"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="2" lineNum="27" parent="globals" pc="268435486" symbol="getApp"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435502" symbol="&lt;init&gt;"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="4" lineNum="6" parent="globals/Nostalgia64View" pc="268435526" symbol="&lt;init&gt;"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="6" lineNum="20" parent="globals/Nostalgia64App" pc="268435545" symbol="getInitialView"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="6" lineNum="21" parent="globals/Nostalgia64App" pc="268435547" symbol="getInitialView"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="7" lineNum="7" parent="globals/Nostalgia64App" pc="268435588" symbol="initialize"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64App.mc" id="7" lineNum="8" parent="globals/Nostalgia64App" pc="268435590" symbol="initialize"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="9" lineNum="93" parent="globals/Nostalgia64View" pc="268435609" symbol="onExitSleep"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="9" lineNum="94" parent="globals/Nostalgia64View" pc="268435611" symbol="onExitSleep"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="25" parent="globals/Nostalgia64View" pc="268435622" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="26" parent="globals/Nostalgia64View" pc="268435626" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="27" parent="globals/Nostalgia64View" pc="268435673" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="29" parent="globals/Nostalgia64View" pc="268435720" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="30" parent="globals/Nostalgia64View" pc="268435733" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="31" parent="globals/Nostalgia64View" pc="268435746" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="32" parent="globals/Nostalgia64View" pc="268435762" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="33" parent="globals/Nostalgia64View" pc="268435778" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="34" parent="globals/Nostalgia64View" pc="268435806" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="37" parent="globals/Nostalgia64View" pc="268435842" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="38" parent="globals/Nostalgia64View" pc="268435861" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="39" parent="globals/Nostalgia64View" pc="268435889" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="40" parent="globals/Nostalgia64View" pc="268435901" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="41" parent="globals/Nostalgia64View" pc="268435911" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="42" parent="globals/Nostalgia64View" pc="268435921" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="43" parent="globals/Nostalgia64View" pc="268435940" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="44" parent="globals/Nostalgia64View" pc="268435959" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="45" parent="globals/Nostalgia64View" pc="268435979" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="46" parent="globals/Nostalgia64View" pc="268436007" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="47" parent="globals/Nostalgia64View" pc="268436053" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="48" parent="globals/Nostalgia64View" pc="268436099" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="49" parent="globals/Nostalgia64View" pc="268436139" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="11" lineNum="50" parent="globals/Nostalgia64View" pc="268436149" symbol="onLayout"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="12" lineNum="98" parent="globals/Nostalgia64View" pc="268436166" symbol="onEnterSleep"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="12" lineNum="99" parent="globals/Nostalgia64View" pc="268436168" symbol="onEnterSleep"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="13" lineNum="20" parent="globals/Nostalgia64View" pc="268436179" symbol="initialize"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="13" lineNum="21" parent="globals/Nostalgia64View" pc="268436181" symbol="initialize"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="64" parent="globals/Nostalgia64View" pc="268436200" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="65" parent="globals/Nostalgia64View" pc="268436204" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="66" parent="globals/Nostalgia64View" pc="268436221" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="67" parent="globals/Nostalgia64View" pc="268436295" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="68" parent="globals/Nostalgia64View" pc="268436325" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="69" parent="globals/Nostalgia64View" pc="268436329" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="70" parent="globals/Nostalgia64View" pc="268436340" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="71" parent="globals/Nostalgia64View" pc="268436350" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="73" parent="globals/Nostalgia64View" pc="268436367" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="74" parent="globals/Nostalgia64View" pc="268436372" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="76" parent="globals/Nostalgia64View" pc="268436400" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="78" parent="globals/Nostalgia64View" pc="268436425" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="80" parent="globals/Nostalgia64View" pc="268436463" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="81" parent="globals/Nostalgia64View" pc="268436485" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="82" parent="globals/Nostalgia64View" pc="268436540" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/source/Nostalgia64View.mc" id="15" lineNum="83" parent="globals/Nostalgia64View" pc="268436562" symbol="onUpdate"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268436606" symbol="WatchFace"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436618" symbol="WatchFace"/>
+        <entry filename="/home/mickepick/n64/Nostalgia64/gen/006-B3076-00/source/Rez.mcgen" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268436753" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="22" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="15" symbol="c64num"/>
+        <entry field="true" id="12" symbol="bgCol"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="10" symbol="awake"/>
+        <entry field="true" id="20" symbol="cursorY"/>
+        <entry field="true" id="19" symbol="cursorX"/>
+        <entry field="true" id="11" symbol="bg"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="17" symbol="clockCenterY"/>
+        <entry field="true" id="16" symbol="clockCenterX"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="14" symbol="c64fnt"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="21" symbol="LauncherIcon"/>
+        <entry field="true" id="18" symbol="cursor"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="7" object="true" symbol="Nostalgia64App"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="13" symbol="borderCol"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8" object="true" symbol="Nostalgia64View"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436165" name="dc" stackId="1" startPc="268435622"/>
+        <entry endPc="268436164" name="w" stackId="2" startPc="268435626"/>
+        <entry endPc="268436164" name="h" stackId="3" startPc="268435626"/>
+        <entry endPc="268436164" name="bitmapOpts" stackId="4" startPc="268435626"/>
+        <entry endPc="268436164" name="bgDc" stackId="5" startPc="268435626"/>
+        <entry endPc="268436164" name="sw" stackId="6" startPc="268435626"/>
+        <entry endPc="268436164" name="sh" stackId="7" startPc="268435626"/>
+        <entry endPc="268436164" name="offsetX" stackId="8" startPc="268435626"/>
+        <entry endPc="268436164" name="offsetY" stackId="9" startPc="268435626"/>
+        <entry arg="true" endPc="268436605" name="dc" stackId="1" startPc="268436200"/>
+        <entry endPc="268436604" name="clockTime" stackId="2" startPc="268436204"/>
+        <entry endPc="268436604" name="timeString" stackId="3" startPc="268436204"/>
+        <entry endPc="268436604" name="doDrawCursor" stackId="4" startPc="268436204"/>
+        <entry arg="true" endPc="268436769" name="dc" stackId="1" startPc="268436606"/>
+    </localVars>
+    <deviceInfo partNumber="006-B3076-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="c64fnt"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="c64num"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Nostalgia64App" offset="142" parentId="globals" symbolId="Nostalgia64App" type="class"/>
+        <dataEntry label="globals/Rez" offset="213" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Nostalgia64View" offset="276" parentId="globals" symbolId="Nostalgia64View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="459" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="498" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="537" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="584" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="Nostalgia64App" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435501" name="getApp" startPc="268435476">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435525" name="&lt;init&gt;" parent="Rez" startPc="268435502">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435544" name="&lt;init&gt;" parent="Nostalgia64View" startPc="268435526">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="Nostalgia64App">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435587" name="getInitialView" parent="Nostalgia64App" startPc="268435545">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="initialize" parent="Nostalgia64App" startPc="268435588">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="Nostalgia64App">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435621" name="onExitSleep" parent="Nostalgia64View" startPc="268435609">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="Nostalgia64View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436165" name="onLayout" parent="Nostalgia64View" startPc="268435622">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436178" name="onEnterSleep" parent="Nostalgia64View" startPc="268436166">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436199" name="initialize" parent="Nostalgia64View" startPc="268436179">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="Nostalgia64View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436605" name="onUpdate" parent="Nostalgia64View" startPc="268436200">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436769" name="WatchFace" parent="Layouts" startPc="268436606">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
