@@ -43,8 +43,9 @@ class Nostalgia64View extends WatchUi.WatchFace {
         var offsetY = h / 2 - sh / 2;
         bgDc.fillRectangle(offsetX, offsetY, sw, sh);
         bgDc.setColor(borderCol, bgCol);
-        bgDc.drawText(w/2, offsetY+4, c64fnt, "*** NOSTALGIA ***", Graphics.TEXT_JUSTIFY_CENTER);
-        bgDc.drawText(w/2, offsetY+16, c64fnt, "64K MEMORY IS ENOUGH", Graphics.TEXT_JUSTIFY_CENTER);
+
+        drawBackgroundText(bgDc, w, offsetY, c64fnt);
+
         bgDc.drawText(offsetX, offsetY+28, c64fnt, "READY.", Graphics.TEXT_JUSTIFY_LEFT);
         cursorX = offsetX;
         cursorY = offsetY + 37;
@@ -58,6 +59,26 @@ class Nostalgia64View extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+    }
+
+    function drawBackgroundText(bgDc, width, offsetY, c64fnt) {
+        var backgroundTextArray = Application.loadResource(Rez.JsonData.jsonArray);
+        var index = Math.rand() % backgroundTextArray.size();
+        // index = 1;  // TO DEBUG / VIEW QUOTE OF CHOICE
+        var backgroundTextSingle = backgroundTextArray[index] as String;
+
+        // Split string on :
+        var chars = backgroundTextSingle.toCharArray();
+        var line1 = "LINE1";
+        var line2 = "LINE2";
+        for (var i = 0; i < chars.size(); i++) {
+            if(chars[i].equals(":".toCharArray()[0])) {
+                line1 = StringUtil.charArrayToString(chars.slice(0, i));
+                line2 = StringUtil.charArrayToString(chars.slice(i+1, chars.size()));
+            }
+        }
+        bgDc.drawText(width/2, offsetY+4, c64fnt, line1, Graphics.TEXT_JUSTIFY_CENTER);
+        bgDc.drawText(width/2, offsetY+16, c64fnt, line2, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     // Update the view
@@ -79,7 +100,7 @@ class Nostalgia64View extends WatchUi.WatchFace {
            } else {
             amPm = "AM";
            }
-           timeString = Lang.format("$1$0$2$", [hour, clockTime.min.format("%02d")]);
+           timeString = Lang.format("$1$:$2$", [hour, clockTime.min.format("%02d")]);
            amPm = "PM";
         }
         dc.drawBitmap(0, 0, bg);
